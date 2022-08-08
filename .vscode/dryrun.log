@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/grigoriiakimenko/vsprojects/Civ Game OpenGL'
+g++ -O1 -std=c++2a -I./include -L./lib src/main.cpp src/glad.c -o build/main -lglfw -lyaml-cpp
+./build/main
+make: Leaving directory `/Users/grigoriiakimenko/vsprojects/Civ Game OpenGL'
+ 
